@@ -40,7 +40,15 @@ header {
 main h2 {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+a {
+  font-weight: bold;
+  color: royalblue;
+  text-decoration: underline;
+}
+
 
 @media (max-width: 240px) {
   .page-header h1 {

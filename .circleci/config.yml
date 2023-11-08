@@ -34,6 +34,26 @@ jobs:
           command: |
             npm run test
 
+      - run:
+          name: Istanbul coverage
+          command: |
+            npm run coverage
+
+      - run:
+          name: Install xvfb
+          command: |
+            npm run install:xvfb
+
+      - run:
+          name: Front-End e2e Tests
+          command: |
+            npm run test:e2e
+
+      - run:
+          name: Istanbul coverage badges
+          command: |
+            npm run make-badges:ci
+
 workflows:
   version: 2
   frontend-build-test-workflow:
