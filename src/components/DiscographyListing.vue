@@ -18,11 +18,7 @@ export default {
   mixins: [dateFormatMixin],
   computed: {
     formattedDate() {
-      if (this.release) {
-        return this.formatDate(this.release.releaseDate)
-      } else {
-        return ''
-      }
+      return this.formatDate(this.release?.releaseDate)
     }
   }
 }
