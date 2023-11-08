@@ -41,6 +41,7 @@
 .home-content p {
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
