@@ -2,8 +2,8 @@
   <div class="about">
     <h2>Band Members</h2>
     <div class="band-members">
-      <p class="member-item" v-for="member in membersStore.members" :key="member.name">
-        <span>{{ member.name }} - {{ member.role }}</span>
+      <p class="member-item" v-for="member in membersStore.members" :key="member['name']">
+        <span>{{ member['name'] }} - {{ member['role'] }}</span>
       </p>
     </div>
     <div class="band-pic">
