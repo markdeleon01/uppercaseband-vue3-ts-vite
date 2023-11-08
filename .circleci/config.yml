@@ -35,7 +35,7 @@ jobs:
             npm run test
 
       - run:
-          name: Istanbul coverage
+          name: Test coverage
           command: |
             npm run coverage
 
@@ -50,7 +50,7 @@ jobs:
             npm run test:e2e
 
       - run:
-          name: Istanbul coverage badges
+          name: Test coverage badges
           command: |
             npm run make-badges:ci
 
