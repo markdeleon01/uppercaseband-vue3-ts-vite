@@ -35,7 +35,8 @@
 
 .band-logo img {
   width: -webkit-fill-available;
-  height: auto;
+  max-width: 450px;
+  max-height: 300px;
 }
 
 .home-content p {
