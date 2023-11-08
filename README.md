@@ -4,10 +4,9 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/markdeleon01/uppercaseband-vue3-ts-vite/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/markdeleon01/uppercaseband-vue3-ts-vite/tree/main)
 
 **Code unit test coverage:**
-| Statements                  | Branches                | Functions                 | Lines             |
+| Statements | Branches | Functions | Lines |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
-| ![Statements](https://img.shields.io/badge/statements-61.76%25-red.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-0%25-red.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-62.5%25-red.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-62.5%25-red.svg?style=flat) |
-
+| ![Statements](https://img.shields.io/badge/statements-92.83%25-brightgreen.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-76.92%25-red.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-69.23%25-red.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-92.83%25-brightgreen.svg?style=flat) |
 
 ## UPPERCASE band webapp
 
@@ -28,8 +27,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration

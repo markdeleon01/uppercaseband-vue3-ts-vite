@@ -9,10 +9,10 @@ export default mergeConfig(
       globals: true,
       coverage: {
         reporter: ['json-summary', 'html'],
-        provider: 'istanbul'
+        provider: 'v8'
       },
       environment: 'jsdom',
-      exclude: [...configDefaults.exclude, 'e2e/*'],
+      exclude: [...configDefaults.exclude, 'coverage/*', 'cypress/*', 'node_modules/*', 'e2e/*'],
       root: fileURLToPath(new URL('./', import.meta.url))
     }
   })
