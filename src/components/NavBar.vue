@@ -18,7 +18,8 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: royalblue;
+  font-weight: bold;
+  color: #2c3e50;
   text-decoration: none;
 }
 
@@ -30,8 +31,8 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
-  font-weight: bold;
-  color: #2c3e50;
+  color: royalblue;
+  text-decoration: underline;
 }
 
 nav a:first-of-type {
