@@ -25,6 +25,12 @@
   </div>
 </template>
 
+<script lang="ts">
+export default {
+  name: 'home-view'
+}
+</script>
+
 <style scoped>
 .band-logo {
   display: flex;
