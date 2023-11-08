@@ -44,11 +44,11 @@ main h2 {
 }
 
 a {
+  font-size: 12px;
   font-weight: bold;
   color: royalblue;
   text-decoration: underline;
 }
-
 
 @media (max-width: 240px) {
   .page-header h1 {
@@ -74,5 +74,4 @@ a {
     font-weight: 400;
   }
 }
-
 </style>
