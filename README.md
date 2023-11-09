@@ -12,7 +12,7 @@
 
 As a matter of interest and passion for JavaScript and music in general, I created a Vue3 + TypeScript + Vite web application for my band UPPERCASE.
 
-The live site can be found on:
+The live site can be found on:  https://uppercaseband-vue3-ts-vite.onrender.com
 
 This template should help get you started developing with Vue 3 in Vite.
 
