@@ -35,6 +35,11 @@ describe('Events.vue', () => {
       expect(store.events).to.have.lengthOf(6)
 
       expect(wrapper.findAll('.event-item')).to.have.lengthOf(6)
+      expect(wrapper.findAll('.event-title')).to.have.lengthOf(6)
+      expect(wrapper.findAll('.event-date')).to.have.lengthOf(6)
+      expect(wrapper.findAll('.event-location')).to.have.lengthOf(6)
+      expect(wrapper.findAll('.event-content')).to.have.lengthOf(6)
+      expect(wrapper.findAll('.event-url')).to.have.lengthOf(6)
       expect(wrapper.findAll('.event-item > a')).to.have.lengthOf(6)
     })
   })

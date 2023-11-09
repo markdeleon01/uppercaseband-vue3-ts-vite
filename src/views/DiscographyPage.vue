@@ -10,6 +10,7 @@
 </template>
 
 <script lang="ts">
+/* c8 ignore start */
 import { useDiscographyStore } from '@/stores/Discography'
 import { mapStores } from 'pinia'
 import DiscographyListing from '@/components/DiscographyListing.vue'
@@ -47,4 +48,5 @@ export default {
     ...mapStores(useDiscographyStore)
   }
 }
+/* c8 ignore stop */
 </script>

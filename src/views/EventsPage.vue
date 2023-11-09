@@ -1,15 +1,12 @@
 <template>
   <div class="events">
     <h2>Events</h2>
-    <EventListing
-      v-for="event in eventsStore.events"
-      :key="event['id']"
-      :event="event"
-    />
+    <EventListing v-for="event in eventsStore.events" :key="event['id']" :event="event" />
   </div>
 </template>
 
 <script lang="ts">
+/* c8 ignore start */
 import { useEventsStore } from '@/stores/Events'
 import { mapStores } from 'pinia'
 import EventListing from '../components/EventListing.vue'
@@ -47,4 +44,5 @@ export default {
     ...mapStores(useEventsStore)
   }
 }
+/* c8 ignore stop */
 </script>

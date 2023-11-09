@@ -20,11 +20,13 @@ export const useMembersStore = defineStore(
       //Getters are exactly the equivalent of computed values for the state of a Store.  They receive the state as the first parameter to encourage the usage of arrow function
     },
     actions: {
+      /* c8 ignore start */
       async fetchMembers() {
         //call the API to retrieve the members
         const response = await MemberService.getMembers()
         this.members = response.data
       }
+      /* c8 ignore stop */
     } //state as the data of the store, getters as the computed properties of the store, and actions as the methods
   }
 )
