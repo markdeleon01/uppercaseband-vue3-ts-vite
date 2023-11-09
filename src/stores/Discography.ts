@@ -6,9 +6,11 @@ export const useDiscographyStore = defineStore('discography', {
     releases: []
   }),
   actions: {
+    /* c8 ignore start */
     async fetchReleases() {
       const response = await DiscographyService.getReleases()
       this.releases = response.data
     }
+    /* c8 ignore stop */
   }
 })

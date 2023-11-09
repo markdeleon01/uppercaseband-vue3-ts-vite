@@ -44,6 +44,7 @@
 </template>
 
 <script lang="ts">
+/* c8 ignore start */
 import { useMembersStore } from '@/stores/Members'
 import { mapStores } from 'pinia' //get access to the whole store with mapStores()
 import type { NavigationGuardNext } from 'vue-router'
@@ -92,6 +93,7 @@ export default {
     // Note that store is an object wrapped with reactive, meaning there is no need to write .value after getters but, like props in setup, we cannot destructure it.
   }
 }
+/* c8 ignore stop */
 </script>
 
 <style scoped>

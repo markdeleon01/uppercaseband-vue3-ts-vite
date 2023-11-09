@@ -20,6 +20,7 @@ describe('EventListing.vue', () => {
       }
     })
 
+    expect(wrapper.findAll('.event-item')).to.have.lengthOf(1)
     expect(wrapper.findAll('.event-title')).to.have.lengthOf(1)
     expect(wrapper.findAll('.event-date')).to.have.lengthOf(1)
     expect(wrapper.findAll('.event-location')).to.have.lengthOf(1)
