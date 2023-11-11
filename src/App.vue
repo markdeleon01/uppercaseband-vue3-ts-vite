@@ -44,7 +44,6 @@ main h2 {
 }
 
 a {
-  font-size: 12px;
   font-weight: bold;
   color: royalblue;
   text-decoration: underline;
