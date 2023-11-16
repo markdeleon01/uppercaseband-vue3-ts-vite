@@ -30,6 +30,10 @@ export default {
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.event-item:last-of-type {
   padding-bottom: 20px;
 }
 
