@@ -25,7 +25,7 @@ header {
 }
 
 .page-header {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .page-header h1 {
