@@ -1,7 +1,7 @@
-# uppercaseband-vue3-ts-vite
+# uppercaseband-vue3-typescript-vite-vitest
 
 **CI build:**
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/markdeleon01/uppercaseband-vue3-ts-vite/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/markdeleon01/uppercaseband-vue3-ts-vite/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/markdeleon01/uppercaseband-vue3-typescript-vite-vitest/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/markdeleon01/uppercaseband-vue3-typescript-vite-vitest/tree/main)
 
 **Code unit test coverage:**
 | Statements | Branches | Functions | Lines |
